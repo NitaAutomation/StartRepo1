@@ -17,6 +17,7 @@ public class TestC {
 	WebDriver driver = new FirefoxDriver();
 	driver.manage().window().maximize();
 	driver.get("http://www.amazon.in");
+	System.out.println("hello.....");
 	//driver.getTitle();
 	//Thread.sleep(3000);
 	driver.findElement(By.xpath("//a[@id='nav-link-accountList']/span[1]")).click();
